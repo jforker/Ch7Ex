@@ -1,0 +1,49 @@
+7.4
+getOneIntersectingObject method belongs to the Actor class.
+
+7.9
+getObjects(java.lang.Class cls)
+Get all the objects in the world, or all the objects of a particular class.
+getObjectsAt(int x, int y, java.lang.Class cls)
+Return all objects at a given cell.
+
+7.10
+Color(ColorSpace cspace, float[] components, float alpha) 
+           Creates a color in the specified ColorSpace with the color components specified in the float array and the specified alpha. 
+Color(float r, float g, float b) 
+           Creates an opaque sRGB color with the specified red, green, and blue values in the range (0.0 - 1.0). 
+Color(float r, float g, float b, float a) 
+           Creates an sRGB color with the specified red, green, blue, and alpha values in the range (0.0 - 1.0). 
+Color(int rgb) 
+           Creates an opaque sRGB color with the specified combined RGB value consisting of the red component in bits 16-23, the green component in bits 8-15, and the blue component in bits 0-7. 
+Color(int rgba, boolean hasalpha) 
+           Creates an sRGB color with the specified combined RGBA value consisting of the alpha component in bits 24-31, the red component in bits 16-23, the green component in bits 8-15, and the blue component in bits 0-7. 
+Color(int r, int g, int b) 
+           Creates an opaque sRGB color with the specified red, green, and blue values in the range (0 - 255). 
+Color(int r, int g, int b, int a) 
+           Creates an sRGB color with the specified red, green, blue, and alpha values in the range (0 - 255). 
+
+7.12
+To Add:
+add(E e)
+Appends the specified element to the end of this list (optional operation).
+add(int index, E element)
+Inserts the specified element at the specified position in this list (optional operation).
+addAll(Collection<? extends E> c)
+Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator (optional operation).
+addAll(int index, Collection<? extends E> c)
+Inserts all of the elements in the specified collection into this list at the specified position (optional operation).
+To Remove:
+clear()
+Removes all of the elements from this list (optional operation).
+remove(int index)
+Removes the element at the specified position in this list (optional operation).
+remove(Object o)
+Removes the first occurrence of the specified element from this list, if it is present (optional operation).
+removeAll(Collection<?> c)
+Removes from this list all of its elements that are contained in the specified collection (optional operation).
+How Many:
+size()
+Returns the number of elements in this list.
+7.13
+Interface List<E>
